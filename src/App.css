@@ -109,6 +109,11 @@ table {
     justify-content: center;
 }
 
+.siteIcon {
+    width: "48px";
+    border-radius: 100%;
+}
+
 @media screen and (max-width: 768px) {
     #search {
         max-width: 70%;
