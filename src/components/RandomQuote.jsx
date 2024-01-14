@@ -5,9 +5,8 @@ const RandomQuote = () => {
   const url = 'https://dummyjson.com/quotes/random';
   const fetchQuote = async() => {
     try {
-      // let response = await fetch(url);
-      // let quote = await response.json();
-      let quote = {"quote": "", "author": ""};
+      let response = await fetch(url);
+      let quote = await response.json();
       setOneQuote(quote);
     } catch(err) {
       console.log(err);
