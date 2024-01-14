@@ -1,8 +1,8 @@
-//don't forget to switch quotes back to api!
-//tabs and accordian need more websites
-//regulate sizing of favicons and round them!
-//sound works but I don't know what it sounds like
+//regulate sizing of favicons (I put in a width but it isn't working)
 //my colspan isn't working
+//change document title
+//music overflows on desktop (didn't used to)
+
 import {useState, useEffect} from "react";
 import Music from "./components/Music";
 import RandomQuote from "./components/RandomQuote";
