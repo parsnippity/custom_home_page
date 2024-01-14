@@ -19,7 +19,7 @@ const AccordianSection = ({title, websites}) => {
                 let favicon = `https://www.google.com/s2/favicons?domain=${site[1]}&sz=32`;
                 return (
                     <div className="job-desc" key={index}>
-                        <a href={site[1]}><img src={favicon} alt={`icon for ${site[0]}`}/></a>
+                        <a href={site[1]}><img src={favicon} id="siteIcon" alt={`icon for ${site[0]}`}/></a>
                         <p>{site[0]}</p>
                     </div>
                 )
