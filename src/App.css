@@ -77,7 +77,7 @@ iframe {
 .site-desc {
     color: white;
     text-align: center;
-    margin: 5%;
+    margin: 4%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,7 +181,7 @@ table {
     }
     .job-desc {
         text-align: center;
-        margin: 0.25rem;
+        margin: 0.4rem;
     }
     .job-desc p {
         margin: 0;
