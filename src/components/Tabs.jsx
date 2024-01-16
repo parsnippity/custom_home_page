@@ -8,18 +8,18 @@ const Tabs = () => {
     <table>
       <thead>
       <tr>
+	  <th>
           {links.map((item, index) => {
             return (
-              <th key={index}>
-              <button onClick={() => {
+              <button key={index} onClick={() => {
                 setValue(index);
                 let ding = new Audio("./click.wav");
 	              ding.play();
               }} className={`link-btn ${index === value && "active-btn"}`}
               >{item.title}</button>
-              </th>
             )
           })}
+          </th>
       </tr>
       </thead>
       <tbody>
